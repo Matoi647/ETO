@@ -1,0 +1,9 @@
+{
+    "agent_class": "VllmAgent",
+    "config": {
+        "api_key": "",
+        "model_name": "Meta-Llama-3-8B-Instruct-hf",
+        "max_tokens": 512,
+        "temperature": 0.0
+    }
+}

@@ -1,5 +1,14 @@
 # Exploration-Based Trajectory Optimization for LLM Agents
 
+``` shell
+ImportError: /data3/hwz/conda_envs/eto-env/lib/python3.10/site-packages/flash_attn_2_cuda.cpython-310-x86_64-linux-gnu.so: undefined symbol: _ZN2at4_ops5zeros4callEN3c108ArrayRefINS2_6SymIntEEENS2_8optionalINS2_10ScalarTypeEEENS6_INS2_6LayoutEEENS6_INS2_6DeviceEEENS6_IbEE
+```
+
+https://blog.csdn.net/woai8339/article/details/136646010
+
+``` shell
+FLASH_ATTENTION_FORCE_BUILD=TRUE pip install flash-attn
+```
 
 <p align="center">
 <img src=assets/main.png width=700/>
